@@ -1,0 +1,44 @@
+.navbar {
+    background-color: whitesmoke;
+}
+
+.person-name {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.name-cv {
+    color: #000;
+    transition: color 0.3s ease
+}
+
+.name-cv-color {
+    color: blue;
+    transition: color 0.3s ease
+}
+
+.person-name:hover .name-cv {
+    color: blue;
+}
+
+.person-name:hover .name-cv-color {
+    color: #000;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flex-item a:hover {
+    text-decoration: underline;
+    color: blue;
+    transition: 0.5s;
+}
